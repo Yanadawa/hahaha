@@ -10,3 +10,12 @@
 section {
   padding-top: 5rem;
 }
+
+a{
+  text-decoration: underline;
+  color: black;
+}
+
+a:hover{
+  color: #0000ff;
+}
