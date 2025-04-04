@@ -19,3 +19,11 @@ a{
 a:hover{
   color: #0000ff;
 }
+
+a:visited{
+  color: black;
+}
+
+a:active{
+  color: black;
+}
