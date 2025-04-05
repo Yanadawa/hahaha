@@ -1,9 +1,20 @@
-.jumbotron {
-  background-color: #e2edff;
-  padding-top: 2rem;
+html{
+  scroll-behavior: smooth;
 }
 
-.projects {
+#navbar a:active{
+  color: white;
+  background-color: rgba(255, 255, 255, .3);
+  font-weight: bold;
+  text-shadow: 0 0 5px yellow;
+}
+
+.jumbotron {
+  background-color: #e2edff;
+  padding-top: 5rem;
+}
+
+#projects {
   background-color: #e2edff;
 }
 
@@ -16,14 +27,14 @@ a{
   color: black;
 }
 
-a:hover{
+.link-footer:hover{
   color: #0000ff;
 }
 
-a:visited{
+.link-footer:visited{
   color: black;
 }
 
-a:active{
+.link-footer:active{
   color: black;
 }

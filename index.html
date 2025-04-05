@@ -28,11 +28,12 @@
   <body>
     <!-- Navbar -->
     <nav
+      id="navbar"
       class="navbar navbar-expand-lg navbar-dark bg-primary shadow sticky-top"
     >
       <div class="container">
         <img src="Img/YNDW.jpg" alt="" class="img-responsive rounded-circle me-3" width="50" style="background-color: none;">
-        <a class="navbar-brand" href="#home">Yudistira Ananta Dewa</a>
+        <a class="navbar-brand" href="">Yudistira Ananta Dewa</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -48,7 +49,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
@@ -65,7 +66,7 @@
     </nav>
 
     <!-- Profile -->
-    <section class="jumbotron text-center">
+    <section id="home" class="jumbotron text-center content-section">
       <div class="container-fluid">
         <div class="container">
           <img
@@ -88,7 +89,7 @@
     </section>
 
     <!-- About -->
-    <section id="about" class="about">
+    <section id="about" class="about content-section">
       <div class="container-fluid">
         <div class="container">
           <div class="row text-center mb-3">
@@ -116,7 +117,7 @@
     </section>
 
     <!-- Projects Gallery -->
-    <section id="projects" class="projects">
+    <section id="projects" class="content-section">
       <div class="container-fluid">
         <div class="container">
           <div class="row text-center mb-3">
@@ -243,7 +244,7 @@
     </section>
 
     <!-- CP -->
-    <section id="contact">
+    <section id="contact" class="content-section">
       <div class="container-fluid">
         <div class="container">
           <div class="row text-center mb-3">
@@ -254,12 +255,17 @@
 
 
           <div class="row text-center justify-content-center">
+
             <div class="col-12 col-md-4">
-              <i class="bi bi-whatsapp me-1"></i><a href="https://wa.me/6282232460882" target="_blank">+62 822 3246 0882</a>
+              <i class="bi bi-whatsapp me-1"></i>
+              <a href="https://api.whatsapp.com/send/?phone=6282232460882" target="_blank" class="link-footer">+62 822 3246 0882</a>
             </div>
 
             <div class="col-12 col-md-4">
-              <i class="bi bi-envelope me-1"></i><a href="mailto:yudistira.a394@gmail.com" target="_blank">yudistira.a394@gmail.com</a>
+              <i class="bi bi-envelope me-1"></i>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=yudistira.a394@gmail.com" target="_blank" class="link-footer">yudistira.a394@gmail.com</a>
+
+              <!-- https://mail.google.com/mail/?view=cm&fs=1&to=someone@example.com&su=SUBJECT&body=BODY&bcc=someone.else@example.com - this for adding subject etc -->
             </div>
 
           </div>
