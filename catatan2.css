@@ -1,0 +1,6 @@
+#navbar a.active {
+    color: gold;
+    font-weight: bold;
+    text-shadow: 0 0 10px yellow;
+    transition: all 0.3s ease;
+  }

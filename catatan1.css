@@ -1,0 +1,10 @@
+.content-section {
+    height: 100vh;
+    padding: 50px;
+  }
+  
+  #navbar a.active {
+    color: gold;
+    font-weight: bold;
+    text-shadow: 0 0 5px yellow;
+  }
