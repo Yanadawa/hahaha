@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const sections = document.querySelectorAll('.content-section');
-    const navLinks = document.querySelectorAll('#navbar a');
+    const navLinks = document.querySelectorAll('#navbar a'); 
   
     const observer = new IntersectionObserver(
       entries => {
