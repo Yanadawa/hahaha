@@ -2,11 +2,18 @@ html{
   scroll-behavior: smooth;
 }
 
+svg{
+  display: block;
+  line-height: 0;
+}
+
 #navbar a:active{
-  color: white;
-  background-color: rgba(255, 255, 255, .3);
-  font-weight: bold;
-  text-shadow: 0 0 5px yellow;
+  color: rgba(255, 255, 255, .8);
+  font-weight: 600;
+}
+
+#navbar a:visited{
+  color: rgba(255, 255, 255, .3);
 }
 
 .jumbotron {
