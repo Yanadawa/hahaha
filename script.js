@@ -20,15 +20,18 @@ window.addEventListener("scroll", () => {
       }
     });
 
+    // make the scrollSpy on the URL
     if (current && current !== window.location.hash.substring(1)) {
         history.replaceState(null, null, `#${current}`);
     }
+    
 
-    // window.addEventListener("DOMContentLoaded", () => {
-    //     if (!window.location.hash) {
-    //         history.replaceState(null, null, "#home");
-    //     }
-    // })
+    window.addEventListener("DOMContentLoaded", () => {
+        history.replaceState(null, null, "#home")
+        if (!window.location.hash) {
+            history.replaceState(null, null, "#home");
+        }
+    })
   });
 
 
