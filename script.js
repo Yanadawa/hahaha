@@ -21,14 +21,14 @@ window.addEventListener("scroll", () => {
     });
 
     if (current && current !== window,location.hash.substring(1)) {
-        history.replaceState(null, null, `#${current}`);
+        history.replaceState(null, null, `#home`);
     }
 
-    window.addEventListener("DOMContentLoaded", () => {
-        if (!window.location.hash) {
-            history.replaceState(null, null, "#home");
-        }
-    })
+    // window.addEventListener("DOMContentLoaded", () => {
+    //     if (!window.location.hash) {
+    //         history.replaceState(null, null, "#home");
+    //     }
+    // })
   });
 
 
