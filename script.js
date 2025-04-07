@@ -24,11 +24,13 @@ window.addEventListener("scroll", () => {
     if (current && current !== window.location.hash.substring(1)) {
         history.replaceState(null, null, `#${current}`);
     }
-    
+
 
     window.addEventListener("DOMContentLoaded", () => {
-        history.replaceState(null, null, "#home")
-        if (!window.location.hash) {
+        if (window.location.hash) {
+            history.replaceState(null, null, "#home")
+        }
+        else (!window.location.hash) {
             history.replaceState(null, null, "#home");
         }
     })
