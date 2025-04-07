@@ -1,5 +1,6 @@
 html{
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 svg{
@@ -7,18 +8,18 @@ svg{
   line-height: 0;
 }
 
-#navbar a:active{
+.nav-link.active{
   color: rgba(255, 255, 255, .8);
   font-weight: 600;
 }
 
-#navbar a:visited{
+.nav-link.visited{
   color: rgba(255, 255, 255, .3);
 }
 
 .jumbotron {
   background-color: #e2edff;
-  padding-top: 5rem;
+  /* padding-top: 5rem; */
 }
 
 #projects {
