@@ -27,12 +27,12 @@ window.addEventListener("scroll", () => {
 
 
     window.addEventListener("DOMContentLoaded", () => {
-        if (window.location.hash) {
+        if (!window.location.hash) {
             history.replaceState(null, null, "#home")
         }
-        else (!window.location.hash) {
-            history.replaceState(null, null, "#home");
-        }
+        // else (!window.location.hash) {
+        //     history.replaceState(null, null, "#home");
+        // }
     })
   });
 
