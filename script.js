@@ -20,8 +20,8 @@ window.addEventListener("scroll", () => {
       }
     });
 
-    if (current && current !== window,location.hash.substring(1)) {
-        history.replaceState(null, null, `#home`);
+    if (current && current !== window.location.hash.substring(1)) {
+        history.replaceState(null, null, `#${current}`);
     }
 
     // window.addEventListener("DOMContentLoaded", () => {
